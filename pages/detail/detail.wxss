@@ -1,0 +1,69 @@
+/* pages/detail/detail.wxss */
+.detailContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.headImg {
+  width: 100%;
+  height: 460rpx;
+}
+
+.avatar_data {
+  margin: 15rpx;
+}
+
+.avatar_data image {
+  width: 60rpx;
+  height: 60rpx;
+  vertical-align: middle;
+}
+
+.avatar_data text {
+  font-size: 32rpx;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+}
+
+.company {
+  margin-left: 20rpx;
+  font-weight: 700;
+  font-size: 32rpx;
+}
+
+.collection_share_container{
+  position: relative;
+}
+
+.collection_share {
+  float: right;
+  margin-right: 50rpx;
+}
+
+.collection_share image {
+  width: 64rpx;
+  height: 64rpx;
+  margin-right: 15rpx;
+}
+
+.line {
+  position: absolute;
+  width: 90%;
+  height: 1rpx;
+  background: #999;
+  left: 5%;
+  top: 32rpx;
+  z-index: -1;
+}
+
+button {
+  width: 200rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+
+.content {
+  margin-top: 20rpx;
+  font-size: 32rpx;
+  text-indent: 32rpx;
+}
